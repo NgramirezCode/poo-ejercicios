@@ -11,6 +11,10 @@ class cuentaBancaria{
     retirar(monto){
         monto = this.saldo - monto;
     }
+
+    transferir(monto){
+        monto = this.saldo - monto;
+    }
 }
 
 const miCuenta = new cuentaBancaria("Nicolas", 10000);
